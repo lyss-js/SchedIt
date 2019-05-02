@@ -1,11 +1,16 @@
 {
   "name": "schedit",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.11.4"
+  },
   "private": true,
   "dependencies": {
     "cuid": "^2.1.1",
     "date-fns": "^1.29.0",
     "firebase": "^4.12.1",
+    "firebase-admin": "^7.3.0",
+    "firebase-functions": "^2.3.0",
     "google-map-react": "^0.34.0",
     "history": "^4.7.2",
     "moment": "^2.22.0",
@@ -44,6 +49,7 @@
     "deploy": "npm run build && firebase deploy"
   },
   "devDependencies": {
+    "eslint-plugin-promise": "^4.1.1",
     "redux-devtools-extension": "^2.13.2",
     "source-map-explorer": "^1.5.0"
   }
